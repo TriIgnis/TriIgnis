@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">宋焱 · AI Researcher</title>
-  <desc id="desc">奶油白与陶土橙配色的个人主页横幅，包含研究者介绍、无人机和机器人抽象线稿。</desc>
+  <title id="title">宋焱 · VSISLab · AI Researcher</title>
+  <desc id="desc">奶油白与陶土橙配色的个人主页横幅，展示宋焱、山东大学 VSISLab、硕士研究生身份，以及无人机和机器人抽象线稿。</desc>
   <defs>
     <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#FFF9F1"/>
@@ -32,7 +32,7 @@
     <text x="80" y="183" font-size="17" font-weight="650" letter-spacing="3.5" fill="#A66A4D">SONG YAN</text>
     <rect x="78" y="207" width="58" height="4" rx="2" fill="url(#sun)"/>
     <text x="78" y="245" font-size="21" font-weight="650" fill="#51463D">多模态大模型 · 机器人 · 智能体</text>
-    <text x="78" y="278" font-size="16" fill="#806F61">山东大学  ·  硕士研究生（研一）</text>
+    <text x="78" y="278" font-size="16" fill="#806F61">山东大学  ·  VSISLab  ·  硕士研究生（研一）</text>
     <text x="78" y="312" font-size="12" letter-spacing="1.4" fill="#A28E7C">PERCEPTION  /  REASONING  /  ACTION</text>
   </g>
 
@@ -40,15 +40,11 @@
     <circle cx="165" cy="118" r="115" fill="#F4D9B9" opacity=".42"/>
     <circle cx="165" cy="118" r="87" fill="none" stroke="#D7A77B" stroke-width="1.4" stroke-dasharray="3 8" opacity=".8"/>
     <circle cx="165" cy="118" r="58" fill="none" stroke="#C97952" stroke-width="1.2" opacity=".45"/>
-
-    <!-- flight path and connected nodes -->
     <path d="M15 192 C65 145 83 220 135 180 S225 64 292 105 S333 173 365 146" fill="none" stroke="#C97952" stroke-width="2.2" stroke-dasharray="5 8" opacity=".8"/>
     <circle cx="15" cy="192" r="5" fill="#C97952"/>
     <circle cx="135" cy="180" r="5" fill="#89947B"/>
     <circle cx="292" cy="105" r="5" fill="#E2A65E"/>
     <circle cx="365" cy="146" r="5" fill="#89947B"/>
-
-    <!-- stylized drone -->
     <g transform="translate(164 118)" fill="none" stroke="#A96549" stroke-width="3">
       <path d="M-18 -9 L-58 -37 M18 -9 L58 -37 M-18 9 L-58 37 M18 9 L58 37"/>
       <rect x="-20" y="-14" width="40" height="28" rx="9" fill="#FFF8F0"/>
@@ -59,8 +55,6 @@
       <ellipse cx="65" cy="42" rx="22" ry="7" fill="#F9E8D6"/>
       <circle cx="0" cy="0" r="4" fill="#C97952" stroke="none"/>
     </g>
-
-    <!-- abstract robotic arm -->
     <g transform="translate(300 205)" fill="none" stroke="#89947B" stroke-width="7">
       <path d="M0 55 L18 18 L-4 -10 L25 -43"/>
       <circle cx="18" cy="18" r="9" fill="#F7EBDD" stroke-width="3"/>
@@ -68,7 +62,6 @@
       <path d="M25 -43 L38 -55 M25 -43 L13 -58" stroke-width="4"/>
       <path d="M-18 57 H18" stroke-width="5"/>
     </g>
-
     <g fill="#C97952">
       <circle cx="47" cy="38" r="3"/><circle cx="315" cy="28" r="3"/>
       <circle cx="344" cy="242" r="3"/><circle cx="70" cy="272" r="3"/>
