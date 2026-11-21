@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="宋焱｜山东大学硕士研究生｜多模态大模型、机器人与智能体" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="宋焱｜山东大学 VSISLab 硕士研究生｜多模态大模型、机器人与智能体" width="100%" />
 </div>
 
 ---
