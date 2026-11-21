@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a warm, self-hosted GitHub profile statistics SVG."""
+"""Generate a warm, minimal GitHub profile statistics SVG."""
 
 from datetime import datetime, timezone
 from html import escape
@@ -40,33 +40,29 @@ def compact(value: int) -> str:
 
 
 def build_svg(metrics, updated):
-    cards = []
-    x_positions = [24, 292, 560, 828]
-    accents = ["#C97952", "#E6AC59", "#89947B", "#D99A70"]
-    label_colors = ["#A66A4D", "#A8843F", "#78866B", "#A66A4D"]
+    centers = [145, 415, 685, 955]
+    accents = ["#C97952", "#D6A45F", "#89947B", "#C58C70"]
+    groups = []
 
     for index, (label, value, caption) in enumerate(metrics):
-        x = x_positions[index]
-        accent = accents[index]
-        label_color = label_colors[index]
-        cards.append(f"""
-    <g transform="translate({x} 55)">
-      <rect width="250" height="145" rx="17" fill="#FFFCF7" stroke="#EADBCB"/>
-      <circle cx="218" cy="28" r="7" fill="{accent}" opacity=".25"/>
-      <text x="22" y="35" font-size="11" font-weight="700" letter-spacing="1.1" fill="{label_color}">{escape(label)}</text>
-      <text x="22" y="91" font-size="38" font-weight="750" fill="#453B34">{escape(value)}</text>
-      <rect x="22" y="112" width="44" height="4" rx="2" fill="{accent}"/>
-      <text x="22" y="133" font-size="12" fill="#8A7868">{escape(caption)}</text>
+        groups.append(f"""
+    <g transform="translate({centers[index]} 0)">
+      <circle cx="-78" cy="76" r="4" fill="{accents[index]}" opacity=".9"/>
+      <text x="0" y="81" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.25" fill="#927B68">{escape(label)}</text>
+      <text x="0" y="132" text-anchor="middle" font-size="38" font-weight="750" fill="#453B34">{escape(value)}</text>
+      <rect x="-16" y="151" width="32" height="3" rx="1.5" fill="{accents[index]}" opacity=".75"/>
+      <text x="0" y="180" text-anchor="middle" font-size="12" fill="#8A7868">{escape(caption)}</text>
     </g>""")
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="230" viewBox="0 0 1100 230" role="img" aria-labelledby="title desc">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="205" viewBox="0 0 1100 205" role="img" aria-labelledby="title desc">
   <title id="title">TriIgnis GitHub 数据统计</title>
-  <desc id="desc">暖色风格的 GitHub 数据卡片，展示公开仓库、累计 Stars、累计 Forks 和关注者数量，每日自动更新。</desc>
-  <rect x="4" y="4" width="1092" height="222" rx="24" fill="#FFF9F2" stroke="#E8D7C6" stroke-width="2"/>
+  <desc id="desc">暖色风格的 GitHub 数据统计，展示公开仓库、累计 Stars、累计 Forks 和关注者数量，每日自动更新。</desc>
+  <rect x="4" y="4" width="1092" height="197" rx="26" fill="#FFF9F2" stroke="#EFE2D4" stroke-width="1.4"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <text x="34" y="38" font-size="12" font-weight="700" letter-spacing="2.4" fill="#A66A4D">GITHUB SNAPSHOT</text>
-    <text x="1064" y="38" font-size="11" text-anchor="end" letter-spacing="1.2" fill="#A28E7C">UPDATED {escape(updated)}</text>
-    {''.join(cards)}
+    <text x="34" y="36" font-size="11" font-weight="700" letter-spacing="2.1" fill="#A66A4D">GITHUB SNAPSHOT</text>
+    <text x="1064" y="36" font-size="10.5" text-anchor="end" letter-spacing="1" fill="#A28E7C">UPDATED {escape(updated)}</text>
+    <path d="M280 58 V184 M550 58 V184 M820 58 V184" stroke="#EDE2D7" stroke-width="1"/>
+    {''.join(groups)}
   </g>
 </svg>
 '''
