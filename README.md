@@ -1,9 +1,5 @@
 <div align="center">
   <img src="./assets/profile-banner.svg" alt="宋焱｜山东大学 VSISLab 硕士研究生｜多模态大模型、机器人与智能体" width="100%" />
-  <br/>
-  <strong>山东大学 · VSISLab · 硕士研究生（研一）</strong>
-  <br/>
-  研究方向：多模态大模型、机器人与智能体
 </div>
 
 ---
