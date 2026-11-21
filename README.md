@@ -14,18 +14,37 @@
 
 ## 🛠️ 技术栈
 
-<p align="center">
-  <img src="./assets/tech-stack.svg" alt="技术栈：Python、PyTorch、C++、Linux、Git、GitHub、VS Code" width="720" />
-</p>
+<div align="center">
+  <img src="./assets/tech-stack.svg" alt="技术栈：Python、PyTorch、C++、Linux、Git、GitHub、VS Code" width="100%" />
+</div>
 
 ---
 
 ## 📊 GitHub 数据
 
-<p align="center">
-  <img height="160" src="https://github-stats-extended.vercel.app/api?username=TriIgnis&show_icons=true&theme=transparent&hide_border=true" alt="GitHub 数据统计" />
-  <img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=TriIgnis&layout=compact&theme=transparent&hide_border=true" alt="常用编程语言" />
-</p>
+<div align="center">
+  <img src="./assets/github-stats.svg" alt="GitHub 数据统计：公开仓库、Stars、Forks、关注者" width="100%" />
+</div>
+
+## 🐍 GitHub 贡献轨迹
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TriIgnis/TriIgnis/output/github-contribution-snake.svg" alt="GitHub 贡献贪吃蛇动画" width="100%" />
+</div>
+
+---
+
+## 📫 联系我
+
+<div align="center">
+  <a href="https://github.com/TriIgnis">🐙 GitHub · TriIgnis</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:trifire_37@163.com">✉️ 邮箱 · trifire_37@163.com</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://b23.tv/N03QILa">📺 Bilibili</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  🎵 抖音 · TriFire_37
+</div>
 
 ---
 
