@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="570" viewBox="0 0 1100 570" role="img" aria-labelledby="title desc">
+  <title id="title">研究兴趣</title>
+  <desc id="desc">六张暖色系研究方向卡片：无人机视觉语言导航、具身智能与机器人、多模态智能体、视觉语言动作模型、强化学习、运动控制。</desc>
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1E5"/><stop offset="1" stop-color="#F7DFCB"/></linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F0F1E7"/><stop offset="1" stop-color="#E1E6D7"/></linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF6D9"/><stop offset="1" stop-color="#F5E8B9"/></linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBE9E4"/><stop offset="1" stop-color="#F1D5CB"/></linearGradient>
+    <linearGradient id="c5" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7E9D9"/><stop offset="1" stop-color="#EBD4B9"/></linearGradient>
+    <linearGradient id="c6" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EAF0E8"/><stop offset="1" stop-color="#D8E2D5"/></linearGradient>
+  </defs>
+  <rect width="1100" height="570" rx="22" fill="#FFFCF7"/>
+
+  <!-- Card 01 -->
+  <g transform="translate(12 12)">
+    <rect width="526" height="170" rx="18" fill="url(#c1)" stroke="#E9CDB8"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".48"/>
+    <g transform="translate(463 40)" fill="none" stroke="#B96F4D" stroke-width="2.4" stroke-linecap="round">
+      <path d="M-10 -4 L-21 -13 M10 -4 L21 -13 M-10 4 L-21 13 M10 4 L21 13"/>
+      <rect x="-10" y="-7" width="20" height="14" rx="4" fill="#FFF8F0"/>
+      <ellipse cx="-24" cy="-15" rx="7" ry="3"/><ellipse cx="24" cy="-15" rx="7" ry="3"/>
+      <ellipse cx="-24" cy="15" rx="7" ry="3"/><ellipse cx="24" cy="15" rx="7" ry="3"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#A66A4D">01  /  UAV NAVIGATION</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#493D34">无人机视觉语言导航</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#9B674C">UAV Vision-Language Navigation</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#766456">多模态感知 · 空间推理 · 自主导航</text>
+  </g>
+
+  <!-- Card 02 -->
+  <g transform="translate(562 12)">
+    <rect width="526" height="170" rx="18" fill="url(#c2)" stroke="#D5DDCA"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".52"/>
+    <g transform="translate(463 40)" fill="none" stroke="#78866B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-15" y="-15" width="30" height="29" rx="8" fill="#F9FAF4"/>
+      <path d="M-7 -3 H-4 M4 -3 H7 M-6 7 Q0 12 6 7 M-15 -4 L-22 -10 M15 -4 L22 -10 M-15 8 L-22 13 M15 8 L22 13"/>
+      <circle cx="-5" cy="-3" r="1.8" fill="#78866B"/><circle cx="5" cy="-3" r="1.8" fill="#78866B"/>
+      <path d="M0 -15 V-21"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#78866B">02  /  EMBODIED AI</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#41483A">具身智能与机器人</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#78866B">Embodied AI &amp; Robotics</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#66705D">环境交互 · 机器人学习 · 自主决策</text>
+  </g>
+
+  <!-- Card 03 -->
+  <g transform="translate(12 200)">
+    <rect width="526" height="170" rx="18" fill="url(#c3)" stroke="#E9DDAF"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".5"/>
+    <g transform="translate(463 40)" fill="none" stroke="#B28A3F" stroke-width="2.4" stroke-linecap="round">
+      <path d="M-17 -9 L0 -18 L17 -8 L14 12 L0 20 L-15 10 Z"/>
+      <path d="M-17 -9 L0 1 L17 -8 M0 1 V20 M-15 10 L0 1 L14 12"/>
+      <circle cx="-17" cy="-9" r="3" fill="#FFF9E8"/><circle cx="17" cy="-8" r="3" fill="#FFF9E8"/><circle cx="0" cy="20" r="3" fill="#FFF9E8"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#A8843F">03  /  MULTIMODAL AGENTS</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#51462F">多模态智能体</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#A8843F">Multimodal Agents</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#766A4F">视觉语言模型 · 记忆 · 规划与工具调用</text>
+  </g>
+
+  <!-- Card 04 -->
+  <g transform="translate(562 200)">
+    <rect width="526" height="170" rx="18" fill="url(#c4)" stroke="#E6C8BE"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".5"/>
+    <g transform="translate(463 40)" fill="none" stroke="#B66E5D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-18 17 L-5 4 L-12 -8 L2 -17 L12 -7 L5 5 L18 14"/>
+      <circle cx="-5" cy="4" r="5" fill="#FFF7F2"/><circle cx="2" cy="-17" r="4" fill="#FFF7F2"/>
+      <path d="M18 14 L23 8 M18 14 L25 18"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#A66B5A">04  /  VISION-LANGUAGE-ACTION</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#513F3B">视觉-语言-动作模型</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#A66B5A">Vision-Language-Action (VLA)</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#79615A">多模态理解 · 动作生成 · 机器人操作</text>
+  </g>
+
+  <!-- Card 05 -->
+  <g transform="translate(12 388)">
+    <rect width="526" height="170" rx="18" fill="url(#c5)" stroke="#E3CFB7"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".5"/>
+    <g transform="translate(463 40)" fill="none" stroke="#A77A4D" stroke-width="2.4">
+      <circle r="19"/><circle r="11"/><circle r="3.5" fill="#C97952" stroke="none"/>
+      <path d="M0 -24 V-15 M0 15 V24 M-24 0 H-15 M15 0 H24" stroke-linecap="round"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#9C754C">05  /  REINFORCEMENT LEARNING</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#514235">强化学习</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#9C754C">Reinforcement Learning (RL)</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#776553">策略学习 · 智能决策 · 交互式学习</text>
+  </g>
+
+  <!-- Card 06 -->
+  <g transform="translate(562 388)">
+    <rect width="526" height="170" rx="18" fill="url(#c6)" stroke="#CDD9CA"/>
+    <circle cx="463" cy="40" r="29" fill="#FFFFFF" opacity=".52"/>
+    <g transform="translate(463 40)" fill="none" stroke="#71866E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-20 16 C-7 16 -10 -15 3 -15 S13 10 22 -7"/>
+      <circle cx="-20" cy="16" r="3.5" fill="#F7FAF4"/><circle cx="3" cy="-15" r="3.5" fill="#F7FAF4"/><circle cx="22" cy="-7" r="3.5" fill="#F7FAF4"/>
+      <path d="M-20 23 V-22 M-27 16 H26" stroke-width="1.5" opacity=".55"/>
+    </g>
+    <text x="26" y="34" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#71866E">06  /  MOTION CONTROL</text>
+    <text x="26" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="25" font-weight="700" fill="#414B3F">运动控制</text>
+    <text x="26" y="108" font-family="Arial,sans-serif" font-size="15" font-weight="600" fill="#71866E">Motion Control</text>
+    <text x="26" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans CJK SC',sans-serif" font-size="14" fill="#667260">运动规划 · 控制 · 运动技能学习</text>
+  </g>
+</svg>
