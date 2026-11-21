@@ -1,23 +1,14 @@
 <div align="center">
-
-# 👋 你好，我是宋焱
-
-**山东大学 · 硕士研究生（研一）**
-
-研究方向：多模态大模型、机器人与智能体
-
+  <img src="./assets/profile-banner.svg" alt="宋焱｜山东大学硕士研究生｜多模态大模型、机器人与智能体" width="100%" />
 </div>
 
 ---
 
 ## 🔬 研究兴趣
 
-- 🚁 **无人机视觉语言导航（UAV-VLN）**：多模态感知、空间推理与自主导航。
-- 🤖 **具身智能与机器人（Embodied AI & Robotics）**：环境交互、机器人学习与自主决策。
-- 🧠 **多模态智能体（Multimodal Agents）**：视觉语言模型、智能体记忆、规划与工具调用。
-- 🦾 **视觉-语言-动作模型（Vision-Language-Action, VLA）**：多模态理解、动作生成与机器人操作。
-- 🎯 **强化学习（Reinforcement Learning, RL）**：策略学习、智能决策与交互式学习。
-- ⚙️ **运动控制（Motion Control）**：机器人运动规划、控制与运动技能学习。
+<div align="center">
+  <img src="./assets/research-interests.svg" alt="研究兴趣：无人机视觉语言导航、具身智能与机器人、多模态智能体、视觉语言动作模型、强化学习、运动控制" width="100%" />
+</div>
 
 ---
 
