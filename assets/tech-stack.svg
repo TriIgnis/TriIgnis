@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="56" viewBox="0 0 720 56" role="img" aria-label="Python, PyTorch, C++, Linux, Git, GitHub, VS Code">
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+    <g><rect x="36" y="9" width="84" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="54" cy="28" r="5" fill="#3776AB"/><text x="83" y="33" fill="#24292F">Python</text></g>
+    <g><rect x="132" y="9" width="100" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="151" cy="28" r="5" fill="#EE4C2C"/><text x="184" y="33" fill="#24292F">PyTorch</text></g>
+    <g><rect x="244" y="9" width="70" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="261" cy="28" r="5" fill="#00599C"/><text x="286" y="33" fill="#24292F">C++</text></g>
+    <g><rect x="326" y="9" width="86" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="344" cy="28" r="5" fill="#E95420"/><text x="379" y="33" fill="#24292F">Linux</text></g>
+    <g><rect x="424" y="9" width="62" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="440" cy="28" r="5" fill="#F05032"/><text x="462" y="33" fill="#24292F">Git</text></g>
+    <g><rect x="498" y="9" width="82" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="516" cy="28" r="5" fill="#24292F"/><text x="550" y="33" fill="#24292F">GitHub</text></g>
+    <g><rect x="592" y="9" width="92" height="38" rx="9" fill="#F3F6FA" stroke="#D0D7DE"/><circle cx="610" cy="28" r="5" fill="#007ACC"/><text x="650" y="33" fill="#24292F">VS Code</text></g>
+  </g>
+</svg>
