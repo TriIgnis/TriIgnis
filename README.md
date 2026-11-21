@@ -23,23 +23,18 @@
 
 ## 🛠️ 技术栈
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,cpp,linux,git,github,vscode" />
-
-</div>
+<p align="center">
+  <img src="./assets/tech-stack.svg" alt="技术栈：Python、PyTorch、C++、Linux、Git、GitHub、VS Code" width="720" />
+</p>
 
 ---
 
 ## 📊 GitHub 数据
 
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=TriIgnis&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TriIgnis&layout=compact&theme=transparent&hide_border=true" />
-
-</div>
+<p align="center">
+  <img height="160" src="https://github-stats-extended.vercel.app/api?username=TriIgnis&show_icons=true&theme=transparent&hide_border=true" alt="GitHub 数据统计" />
+  <img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=TriIgnis&layout=compact&theme=transparent&hide_border=true" alt="常用编程语言" />
+</p>
 
 ---
 
