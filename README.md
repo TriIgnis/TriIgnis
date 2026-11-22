@@ -50,4 +50,6 @@
 
 <br/>
 
-<p align="center"><strong>保持好奇，持续探索。</strong></p>
+<div align="center">
+  <img src="./assets/personal-motto.svg" alt="活得快乐，学得明白，爱得热烈" width="100%" />
+</div>
